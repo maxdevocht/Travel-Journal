@@ -8,6 +8,7 @@ export default function App() {
     <div className="container">
       <Navbar />
       <Card />
+      <div className="line--break"></div>
     </div>
   )
 }

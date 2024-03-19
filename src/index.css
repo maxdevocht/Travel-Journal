@@ -19,6 +19,7 @@ body {
   max-width: 480px;
 }
 
+
 /* nav styling */
 nav {
   height: 55px;
@@ -26,6 +27,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
   color: var(--color-white);
   gap: 5px;
 }
@@ -35,6 +37,69 @@ nav i {
 }
 
 .title {
- font-size: 1rem;
- letter-spacing: -.75px;
+  font-size: 1rem;
+  letter-spacing: -.75px;
+}
+
+/* card styling */
+.card {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card--img {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 126px;
+  height: 200px;
+}
+
+.card--details {
+  
+}
+
+.card--location i {
+  color: var(--color-red);
+  margin-right: 3px;
+}
+
+.card--location {
+  font-size: .75rem;
+  letter-spacing: 1px;
+  margin-bottom: .25rem;
+  font-weight: 300;
+}
+
+.card--maps a{
+  color: var(--color-grey);
+  margin-left: .75rem;
+}
+
+.card--details h1 {
+  color: var(--color-blue);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.card--date {
+  color: var(--color-blue);
+  font-weight: bold;
+  font-size: .75rem;
+  margin-bottom: .75rem;
+}
+
+.card--description {
+  color: var(--color-blue);
+  font-weight: 300;
+  font-size: .75rem;
+}
+
+.line--break {
+  background-color: var(--color-white-red);
+  height: 1px;
+  margin: 0 40px;
 }
