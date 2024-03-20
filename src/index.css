@@ -103,3 +103,15 @@ nav i {
   height: 1px;
   margin: 0 40px;
 }
+
+@media screen and (min-width: 668px) {
+  .card--img {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card--img {
+    width: 265px;
+  }
+}
