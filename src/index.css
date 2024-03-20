@@ -56,9 +56,9 @@ nav i {
   object-fit: cover;
   width: 126px;
   height: 200px;
-  -webkit-box-shadow: 3px 0px 33px -13px rgba(0,0,0,0.64);
-  -moz-box-shadow: 3px 0px 33px -13px rgba(0,0,0,0.64);
-  box-shadow: 3px 0px 33px -13px rgba(0,0,0,0.64);
+  -webkit-box-shadow: 3px 0px 20px -13px rgba(0,0,0,0.64);
+  -moz-box-shadow: 3px 0px 20px -13px rgba(0,0,0,0.64);
+  box-shadow: 3px 0px 20px -13px rgba(0,0,0,0.64);
 }
 
 .card--details {
