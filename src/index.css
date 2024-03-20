@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  max-width: 480px;
+  min-width: 480px;
 }
 
 
